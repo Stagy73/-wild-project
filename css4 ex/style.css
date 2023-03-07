@@ -1,0 +1,29 @@
+.bloc-container {
+    display: flex;
+    justify-content:
+    flex-direction: column;
+  }
+  .blocs > {
+    width: 100px;
+    height: 100px;
+
+  }
+  .bg-peru {
+    background-color: peru;
+  }
+  
+  .bg-turquoise {
+    background-color: paleturquoise;
+  }
+  .bg-violetred {
+    background-color: palevioletred;
+  }
+  .blocs2 {
+    background-color: black;
+  }
+
+  @media screen and (max-width: 600px) { 
+    .menu { 
+      display: none; 
+    } 
+  }

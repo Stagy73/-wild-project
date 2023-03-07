@@ -1,0 +1,113 @@
+nav {
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    background-color: #a306b6;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 10px;
+    list-style-type: none;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border-color: #a306b6;
+    
+
+
+}
+
+a:visited {
+    color: aliceblue;
+    
+
+
+}
+
+a:active {
+    color: #a306b6;
+    background-color: white;
+    
+
+}
+a:focus {
+    color: #a306b6;
+    background-color: white;
+
+}
+
+a {
+    color: #fff;
+    font-size: 30px
+
+}
+
+a:hover {
+    color: #a306b6;
+    background-color: white;
+}
+/*make main dislay by colun aligne item inside main)*/
+main {
+    display: flex;
+    flex-direction: column;
+        align-items:center;
+}
+/*put grey colors into text areas email and name*/
+textarea#message  {
+    background-color: rgba(119, 130, 136, 0.356);
+    width : 500px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+}
+input#email {background-color: rgba(119, 130, 136, 0.356);
+    width : 520px; border-radius: 10px;
+    margin: 10px;
+padding: 10px;
+}
+
+
+
+input#name {background-color: rgba(119, 130, 136, 0.356);
+    width : 520px; border-radius: 10px;
+    margin: 10px;
+    padding:10px ;
+
+}
+h1 {
+    background-color: rgba(119, 130, 136, 0.356);
+    padding:  30px 400px ;
+    border-radius:  20px;
+    text-decoration:solid;
+   
+    
+    
+}
+button {
+    background-color: #a306b6;
+    padding: 10px;
+    border-radius: 10px;
+    width: 80px;
+    color: white;
+    margin-left: 10px;
+}
+
+footer {
+    background-color: darkgray;
+}
+
+#lname ,#lemail , #lmessage{
+    padding-left: 10px;
+}

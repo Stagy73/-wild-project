@@ -1,0 +1,27 @@
+.container {  display: grid;
+    background-color: beige;
+    gap:10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "login login "
+      "display registration"
+      "display registration"
+      "footer footer";
+  }
+  
+ .case {
+    background-color: blueviolet;
+
+ }
+ .login {
+  grid-column-start: 1/4; 
+  
+  margin-right:auto;
+
+ }
+ .registration {
+    grid-column-start: 2/4;
+ }

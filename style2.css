@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin:0;
+  }
+
+
+
+h1{
+    color: white;
+}
+
+
+
+header {
+  display:flex;
+  flex-direction: column;
+  
+    background-color: #f76c6c;
+    height: 250px;
+   
+}
+li {
+display: inline;
+align-items: start;
+color: white;
+}
+
+
+
+  

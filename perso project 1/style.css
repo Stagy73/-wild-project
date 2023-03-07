@@ -1,0 +1,44 @@
+/*grid header container*/
+.container {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 250px 250px;
+    gap: 10px;
+
+}
+
+/* block 1 grid collumn 1*/
+.block1 {
+    display: grid;
+    width: fit-content;
+    background-color: antiquewhite;
+}
+
+/* block 2 grid collumn 2*/
+.block2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: aqua;
+    flex-wrap: nowrap;
+    flex-shrink: 30%;
+}
+
+.block3 {
+   display: grid;
+  grid-column-end:auto;
+
+
+   
+}
+
+.form   {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items:self-start;
+}
+.submit {
+    margin-top: 18px;
+    margin-left: 4;
+}

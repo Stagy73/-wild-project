@@ -1,0 +1,29 @@
+.bloc-container {
+  display: grid;
+  text-align:end;
+  grid-template-columns: 1fr 2fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  height: 400px;
+  border: 1px solid black;
+  grid-gap: 10px;
+  
+}
+  .bloc {
+    padding: 0.5em;
+    background-color: rgb(63, 153, 205);
+    border: 2px solid rgb(46, 120, 163);
+  }
+  
+  .bloc1 {
+
+    justify-content: right;
+    align-items: first baseline;
+  }
+  .insidebloc {
+    display:flex;
+  justify-content:center;
+  align-items:stretch;
+  
+  
+  
+  }

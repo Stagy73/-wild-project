@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+main {
+  flex-grow: 1;
+}
+
+.buttons {
+  text-align: center;
+}
+
+button .text {
+  display: none;
+}
+@media screen and (min-width: 600px) {
+  .buttons .text {
+    display: inline-block;
+  }
+  .buttons {
+    display: ;
+    align-items: flex-start;
+  }
+}
